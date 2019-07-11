@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+body{
+    overflow: hidden;
+}
+
+header{
+    
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    background-color: #00000073;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+.head-section{
+    background: #D6A96F;
+    background-color: ;
+    background-image:url(../images/image-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-blend-mode: normal;
+
+}
+
+nav{
+   
+}
+nav ul{
+    padding: 0;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+nav ul li a{
+    
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: capitalize;
+    padding: 10px 21px;
+    color: #ffffff;
+    display: block;
+}
+
+nav ul li a img{
+    width: 75px;
+}
+nav ul li a:hover{
+        color:#1E3376;
+
+}
+
+h2{
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+}
+.content-div p{
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.form p{
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h1{
+    color: #fff;
+    font-size: 35px;
+
+}
+span{
+    color: #1E3376 
+}
+
+.container{
+            
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+   background-color: #08070791;
+    padding: 0px 0;
+    padding-bottom: 30px;
+    margin-top: 2px;
+}
+    
+.content-div {
+         flex: 1 0 60%;
+    flex: 1 0 60%;
+    max-width: 48%;
+    margin-left: 4%;
+    margin-top: -100px;    
+}
+
+.content-div form{
+        max-width: 400px;
+        margin: 0 auto;   
+}
+
+.content-div label{
+       color: #fff;
+       font-size: 18px;
+}
+    
+.content-div input[type="submit"]{
+        max-width: 100%;
+        color: #fff;
+        padding: 8px 30px;
+        background-color: #1E3376;
+        border-radius: 20px;
+        margin-top: 7px;
+        border: none;
+}
+
+.content-div input[type="submit"]:hover{
+        color: #000;
+}
+  
+.form{
+       flex: 1 0 60%;
+    max-width: 29%;
+    margin-left: 9%;
+    margin-top: 100px;
+    background-color: #1E3376;
+    padding: 10px 20px;
+}
+
+.form form{
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.form input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #fff;
+    background-color: #fff;
+    color: #000;
+}
+
+.form input[type="submit"]{
+
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #fff;
+    background-color: #7482ad;
+    color: #fff;
+}
+
+.form input[type="submit"]:hover{
+        background-color: #1E3376;
+}
+    
+input:focus{
+        outline: none;
+        border: 2px solid #BE9758;
+}
+
+textarea:focus{
+        outline: none;
+        border: 2px solid #BE9758;
+}
+
+textarea{
+   
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #fff;
+    background-color: #fff;
+    color: #fff;
+}
+
+::placeholder{
+    color: #000;
+}
+::-webkit-placeholder{
+    color: #000;
+}
+::-moz-placeholder{
+    color: #000;
+}
+
+.social{
+        flex: 1 0 40%;
+        float: left;
+        max-width: 40%;
+        text-align: center;
+        margin-left: 110px;
+        position: absolute;
+        bottom: 10px;
+}
+.social ul{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;                                                                                                                 
+}
+.social ul li{
+    list-style: none;
+    margin: 1px;
+}
+.social ul li a{
+    color: #fff;
+    display: block;
+    padding: 10px;
+    background: #000;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 21px;
+}
+.social ul a:hover{
+        color: #fff;
+    background-color: #1E3376;
+    }
+
+
+
+
+
+
+
